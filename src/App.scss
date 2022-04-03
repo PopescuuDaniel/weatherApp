@@ -1,0 +1,27 @@
+.app {
+  .box {
+    img {
+      height: 100vh;
+      width: 100vw;
+    }
+    .input {
+      display: block;
+      position: absolute;
+      top: 1rem;
+
+      .bar-search {
+        width: 97.5vw;
+        height: 3rem;
+        border-radius: 0.5rem 0.5rem 1.5rem 1.5rem;
+        font-size: 3rem;
+      }
+    }
+    .results {
+      display: block;
+      position: absolute;
+      top: 15rem;
+      left: 7rem;
+      font-size: 2rem;
+    }
+  }
+}
